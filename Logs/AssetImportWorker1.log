@@ -1,0 +1,720 @@
+Unity Editor version:    6000.0.42f1 (feb9a7235030)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.3.1 (Build 24D70)
+Darwin version:          24.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/6000.0.42f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/krupenpatel/Documents/unity projects/2d projects/firstGame
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+65414
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /Users/krupenpatel/Documents/unity projects/2d projects/firstGame
+/Users/krupenpatel/Documents/unity projects/2d projects/firstGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8552630336]  Target information:
+
+Player connection [8552630336]  * "[IP] 192.168.188.85 [Port] 0 [Flags] 2 [Guid] 25317209 [EditorId] 25317209 [Version] 1048832 [Id] OSXEditor(0,MacBookPro.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8552630336] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8552630336] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.42f1 (feb9a7235030)
+[Subsystems] Discovering subsystems at path /Applications/6000.0.42f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/krupenpatel/Documents/unity projects/2d projects/firstGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/6000.0.42f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/6000.0.42f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/6000.0.42f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/6000.0.42f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003052 seconds.
+- Loaded All Assemblies, in  0.370 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 661ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (119ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (291ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.741 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.673 seconds
+Domain Reload Profiling: 1413ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (570ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (157ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (673ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/6000.0.42f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6592 unused Assets / (3.0 MB). Loaded Objects now: 7303.
+Memory consumption went from 177.5 MB to 174.5 MB.
+Total: 9.606041 ms (FindLiveObjects: 0.933000 ms CreateObjectMapping: 0.351917 ms MarkObjects: 6.340459 ms  DeleteObjects: 1.979583 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 221123.894545 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_play.png
+  artifactKey: Guid(d8af2fd377a004958a032e19a6fd391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_play.png using Guid(d8af2fd377a004958a032e19a6fd391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a22b51738e461f0178afab13560ee4b') in 0.097664333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_facebook.png
+  artifactKey: Guid(c5d42c6e6a9214c429af3c9782c679cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_facebook.png using Guid(c5d42c6e6a9214c429af3c9782c679cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59274a108c0b103e8de3aa9838abe68c') in 0.006226209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_minus_one.png
+  artifactKey: Guid(52030647551234c8fad8a38b77be8c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_minus_one.png using Guid(52030647551234c8fad8a38b77be8c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4645e78c1a40bc1bbfb26c63e14dea9b') in 0.008374833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/Button Buy/button_buy_1.99_big.png
+  artifactKey: Guid(a746dfc7cb3be4cd69c3c54f7cc1defe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/Button Buy/button_buy_1.99_big.png using Guid(a746dfc7cb3be4cd69c3c54f7cc1defe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3865879cf03c2a5a2d7b303f0aca3428') in 0.006733292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_leaderboard.png
+  artifactKey: Guid(840cab56e186b46c3a39932fb0f38d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_leaderboard.png using Guid(840cab56e186b46c3a39932fb0f38d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b468cf5f413a6671c47e9a0bcd1ef83') in 0.005544209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_info.png
+  artifactKey: Guid(db4b98b56f64f479db383c054d9d5c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_info.png using Guid(db4b98b56f64f479db383c054d9d5c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73b99ad48ef46c929767fa2f10b3ac30') in 0.005097042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_lock.png
+  artifactKey: Guid(0d7011713b8be4eb681260bb8ad5968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_lock.png using Guid(0d7011713b8be4eb681260bb8ad5968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5caf88efad5eeeee2317036504cb20c9') in 0.005618625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_no_ads.png
+  artifactKey: Guid(e7c188d1612c84e37836ce3072f465c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_no_ads.png using Guid(e7c188d1612c84e37836ce3072f465c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '915291ad6a3a304301346700ee1e9985') in 0.007191458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_infinity.png
+  artifactKey: Guid(8f0d79c4783b9475a9890115ef682c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_infinity.png using Guid(8f0d79c4783b9475a9890115ef682c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe13ffbbc176a021e3e25e79ca3a7ae4') in 0.008645542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_lock.png
+  artifactKey: Guid(fa7715c04f6ef417595dcd8c8f43862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_lock.png using Guid(fa7715c04f6ef417595dcd8c8f43862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c195af06979ba865345fa73a2618073') in 0.005504709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.130746 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_plus_one.png
+  artifactKey: Guid(d68316aa3c47d47ef9a0d5a0144a03be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_plus_one.png using Guid(d68316aa3c47d47ef9a0d5a0144a03be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0b239c123020773e7aabee87a4455ee') in 0.006284709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014424 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_restart.png
+  artifactKey: Guid(6b22d3f5734df41e5a28726d85c3a4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_restart.png using Guid(6b22d3f5734df41e5a28726d85c3a4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6beaab998d457c64ddf8f72f5e87d4f8') in 0.005277875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.050337 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_restore_purchases.png
+  artifactKey: Guid(b34bb978124ee41e287d31490adaeb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_restore_purchases.png using Guid(b34bb978124ee41e287d31490adaeb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3190b617a7517f5ea93469355426fdd') in 0.0071145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010719 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_0.png
+  artifactKey: Guid(e0608c3460f81470e9095cc7c1297528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_0.png using Guid(e0608c3460f81470e9095cc7c1297528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad67ce89c5c08be99efcf5a898eb911b') in 0.005368125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x313687000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.914 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1567ms
+	BeginReloadAssembly (349ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (158ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (498ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (164ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (650ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6590 unused Assets / (2.6 MB). Loaded Objects now: 7318.
+Memory consumption went from 155.0 MB to 152.4 MB.
+Total: 7.364416 ms (FindLiveObjects: 0.414500 ms CreateObjectMapping: 0.227916 ms MarkObjects: 5.231000 ms  DeleteObjects: 1.490125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 279.366289 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_1.png
+  artifactKey: Guid(115eb9c2e57cb4adfaf3a2001072aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_1.png using Guid(115eb9c2e57cb4adfaf3a2001072aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d77fe7add23a5d3308c1135ae69f931') in 0.117129834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_1k.png
+  artifactKey: Guid(50f672dd1335941dd8950c75ea3b63a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_1k.png using Guid(50f672dd1335941dd8950c75ea3b63a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e7cfda6c2c96739f0200173a68a5306') in 0.008525708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_1k.png
+  artifactKey: Guid(305d28dcdb1724b84855daf36327d4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_1k.png using Guid(305d28dcdb1724b84855daf36327d4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd73fe6084bbba6c4f705a88e0fe0052d') in 0.010483083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.582931 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_2k.png
+  artifactKey: Guid(d9087ef3426094135aa8078b77c4d146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_2k.png using Guid(d9087ef3426094135aa8078b77c4d146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecc6ea2079a08457ea66477831287f56') in 0.006815083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011870 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_3.png
+  artifactKey: Guid(34a13a0a361114d0e9dad82a52acc36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_3.png using Guid(34a13a0a361114d0e9dad82a52acc36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87aa4dc18089d2e3dbfaaf3e34d3040f') in 0.007315875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_3k.png
+  artifactKey: Guid(fa357eda479cd454781e11bce563dc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_3k.png using Guid(fa357eda479cd454781e11bce563dc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09e605f73a51037ae4e9c22f1644a0c1') in 0.006517209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_4.png
+  artifactKey: Guid(c21855fb91d2d4dff9f88b37c91aba69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_4.png using Guid(c21855fb91d2d4dff9f88b37c91aba69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0b3cb84c083b13ba380d502c5329401') in 0.007722625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.324280 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_5.png
+  artifactKey: Guid(8733db574c3f548bfa41947dc8affd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_5.png using Guid(8733db574c3f548bfa41947dc8affd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '796d50683e6a82bbe06bf81e84eb86fe') in 0.007279334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012101 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_6.png
+  artifactKey: Guid(88042ebd907004f8194bfdd6423f849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_6.png using Guid(88042ebd907004f8194bfdd6423f849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a95273903c138ef1b0a17802c5a33793') in 0.006772792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012762 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_7.png
+  artifactKey: Guid(03b438b6ea550430eba9515cd0305e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_7.png using Guid(03b438b6ea550430eba9515cd0305e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f256868d6cdb65422aaa4edc17d581b') in 0.006663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.289359 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_8.png
+  artifactKey: Guid(2e63c5f5203564575a45bbac040fc7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_8.png using Guid(2e63c5f5203564575a45bbac040fc7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d835e37bbe6ea70f8a9150fb9103e54') in 0.007316875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017715 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_9.png
+  artifactKey: Guid(de99df78bd90e406195fb1d620b736ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_9.png using Guid(de99df78bd90e406195fb1d620b736ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e13262bd9774271ebdc2bda492ec56fe') in 0.008908958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_10.png
+  artifactKey: Guid(5db305966d26c41018b08ac1dbccc8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_10.png using Guid(5db305966d26c41018b08ac1dbccc8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8b4f4616a43115242adbcdd3f22f101') in 0.005423709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213943 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_15.png
+  artifactKey: Guid(01c99082312f9409aae48e62111c79a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_15.png using Guid(01c99082312f9409aae48e62111c79a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cdc0c5c918d86c224afc40bb78aa96a') in 0.007161542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011635 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_20.png
+  artifactKey: Guid(99705306515cc4100987d4377034dac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_20.png using Guid(99705306515cc4100987d4377034dac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b7f1b88106322b908d00c5bb2b1593f') in 0.005431792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_25.png
+  artifactKey: Guid(a46ad1f4bbe6e4068abc40d7a70c3b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_25.png using Guid(a46ad1f4bbe6e4068abc40d7a70c3b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54952b1cbf9627aa4d8eaea7ccd1872f') in 0.006697167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370252 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_50.png
+  artifactKey: Guid(875d16c13600c4ccc9d44ddb618ca592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_50.png using Guid(875d16c13600c4ccc9d44ddb618ca592) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89e679d0da00956777beb9007752b276') in 0.005414459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018927 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_75.png
+  artifactKey: Guid(00839996ef2fb4b71b68b291928e5f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_75.png using Guid(00839996ef2fb4b71b68b291928e5f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '379927737eb41f641d65fd0c3ed7c8d5') in 0.007184416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_100.png
+  artifactKey: Guid(89307074c33ef4e71a4ca72034653b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_100.png using Guid(89307074c33ef4e71a4ca72034653b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcc22baf79dcdc9b547d4cf4224f9728') in 0.007101375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.276876 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_150.png
+  artifactKey: Guid(912f13ab5e34e424682a483f43c19bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_150.png using Guid(912f13ab5e34e424682a483f43c19bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f26e9e9fe61269b53de185d2b734a23b') in 0.005162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_200.png
+  artifactKey: Guid(09af6ea9cef62411aa95c90025fa9358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_200.png using Guid(09af6ea9cef62411aa95c90025fa9358) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6de28202d0582215414da481947c2bd') in 0.006815292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_200.png
+  artifactKey: Guid(f5f7a1ffe2a334783bffd66e914cfb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_200.png using Guid(f5f7a1ffe2a334783bffd66e914cfb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e5b5fe92eee6146c399d72c174d1072') in 0.00798925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_350.png
+  artifactKey: Guid(17ef65f6be7f84fe18accc831792e7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_350.png using Guid(17ef65f6be7f84fe18accc831792e7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c681700235be024f715c7c0640726c0') in 0.005845459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_350.png
+  artifactKey: Guid(159421a9278b54b5db15fe4343a1e74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_350.png using Guid(159421a9278b54b5db15fe4343a1e74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbcee925d51e2e099f0446ea0eb9557e') in 0.007912292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_400.png
+  artifactKey: Guid(41ab82738c2114684922be225b01b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_400.png using Guid(41ab82738c2114684922be225b01b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3ac35c10d2a6ceb7a1efb3e657aa494') in 0.007191458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.450494 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_450.png
+  artifactKey: Guid(e4d7f4022909e4bf0b58ea6f7e20219e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_450.png using Guid(e4d7f4022909e4bf0b58ea6f7e20219e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b5e1f11d33449e7b5293e4d6ba391ab') in 0.007080208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016819 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_500.png
+  artifactKey: Guid(aaebef56ccf7e4bda80ce26821387c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_500.png using Guid(aaebef56ccf7e4bda80ce26821387c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60e537bf8655a0d957edfd27cad1cb25') in 0.007605125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_550.png
+  artifactKey: Guid(3b3cc4e74b099475783668381a8bbfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_550.png using Guid(3b3cc4e74b099475783668381a8bbfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c06fb658a84d05021571a9dfd0c85408') in 0.007565208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_600.png
+  artifactKey: Guid(927a5625ba466474aa1f4eb82ac9c08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_600.png using Guid(927a5625ba466474aa1f4eb82ac9c08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01837fc3984e08f379b24eac486bdf11') in 0.006147209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_650.png
+  artifactKey: Guid(bffdb66f163e94eb48cacc02fc99d270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_650.png using Guid(bffdb66f163e94eb48cacc02fc99d270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9b8e24c8e37e7314012e6cda450533c') in 0.005960875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224191 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_700.png
+  artifactKey: Guid(e73046614de5341cab936328eccef5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_700.png using Guid(e73046614de5341cab936328eccef5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd5cc31df93535fbf92350db42f572b0') in 0.0059885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_750.png
+  artifactKey: Guid(2a39910e765d84e53b49cca23b6f77c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_750.png using Guid(2a39910e765d84e53b49cca23b6f77c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '532d35f28ae56da1917f65abbf0fe6d9') in 0.010179167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_800.png
+  artifactKey: Guid(3bebd238964da4d91a05ce924ac1e24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_800.png using Guid(3bebd238964da4d91a05ce924ac1e24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4adf790336a92702ea74552eaed4ccd4') in 0.007713584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_850.png
+  artifactKey: Guid(18f818e0ed3574ec18c77aaf66b1b15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_850.png using Guid(18f818e0ed3574ec18c77aaf66b1b15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38be284c8639fa2257e1f5281c221c8b') in 0.009820041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_900.png
+  artifactKey: Guid(fb6a7d5beb7ff47d28954b745719e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_score_900.png using Guid(fb6a7d5beb7ff47d28954b745719e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd32ed6463825135f4f7c97ddf776673c') in 0.007801333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.421413 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_950.png
+  artifactKey: Guid(10743b97bce0b4cdca100eec51567997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_score_950.png using Guid(10743b97bce0b4cdca100eec51567997) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00f11cc753166650cbc9ec003238da86') in 0.007858833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_store.png
+  artifactKey: Guid(4b813d10e994144db8d27b90c1f4ce47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/64x64/button_store.png using Guid(4b813d10e994144db8d27b90c1f4ce47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff116879ed547f526e8d2cc431c30a1f') in 0.00706425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_store.png
+  artifactKey: Guid(f3a52a16d816d477daff557c2cde5332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_store.png using Guid(f3a52a16d816d477daff557c2cde5332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0679e79a517282022953ff3bbe9b2be') in 0.006434166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_share.png
+  artifactKey: Guid(ed2afd3f5fc8848fdbda533519808dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Mobile Game Icon Pack/Sprites/128x128/button_share.png using Guid(ed2afd3f5fc8848fdbda533519808dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9c12d0b22d60abfa15fc061472f3959') in 0.007651125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Makaka Games/Publisher/Publisher Window/Welcome Screen/Resources/Icon Header.png
+  artifactKey: Guid(efec01e8ffb674794b91ba14cdca28e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Publisher/Publisher Window/Welcome Screen/Resources/Icon Header.png using Guid(efec01e8ffb674794b91ba14cdca28e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '462f9818721b52f5b96fab7942c1c927') in 0.014086042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Makaka Games/Publisher/Publisher Window/Welcome Screen/Resources/Icon Docs.png
+  artifactKey: Guid(4aa9c4b878bff480fb63b72cc5b7d29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Publisher/Publisher Window/Welcome Screen/Resources/Icon Docs.png using Guid(4aa9c4b878bff480fb63b72cc5b7d29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dce85d5536f5fb47dbe5f4677e313418') in 0.009677833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314585 seconds.
+  path: Assets/Makaka Games/Publisher/Everyday Tools/SceneControl/Textures/Icon Menu.png
+  artifactKey: Guid(16b7e932d35e04ab6a62ea42653b865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Publisher/Everyday Tools/SceneControl/Textures/Icon Menu.png using Guid(16b7e932d35e04ab6a62ea42653b865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c88b856b268ee1358528787342782de') in 0.006649542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Makaka Games/Publisher/Everyday Tools/SceneControl/Textures/Icon Play.png
+  artifactKey: Guid(cf5672e63233457aac93f2815bf7399c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Publisher/Everyday Tools/SceneControl/Textures/Icon Play.png using Guid(cf5672e63233457aac93f2815bf7399c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daf806b4f2008d4c586649ecc46ba348') in 0.007369541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004024 seconds.
+  path: Assets/Makaka Games/Publisher/Everyday Tools/SceneControl/Textures/Icon Reset.png
+  artifactKey: Guid(ecbd520266f1547d0a0fc9834b3d5f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Publisher/Everyday Tools/SceneControl/Textures/Icon Reset.png using Guid(ecbd520266f1547d0a0fc9834b3d5f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1bc3ffff2000a844c7a7b6a1155c708') in 0.007168875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Makaka Games/Publisher/Everyday Tools/SceneControl/Textures/Icon Toggle Circle Background.png
+  artifactKey: Guid(40ec67932ba424f17a441b9525f498bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Publisher/Everyday Tools/SceneControl/Textures/Icon Toggle Circle Background.png using Guid(40ec67932ba424f17a441b9525f498bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b2673fb852aed16478fb801d5d68bbe') in 0.007003916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Makaka Games/Publisher/Publisher Window/Welcome Screen/Resources/Icon Support.png
+  artifactKey: Guid(e3801cd4c17544f4fad1ea7c8f9a87a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makaka Games/Publisher/Publisher Window/Welcome Screen/Resources/Icon Support.png using Guid(e3801cd4c17544f4fad1ea7c8f9a87a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a55745ad88554a63ff048cd597236083') in 0.0094715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
