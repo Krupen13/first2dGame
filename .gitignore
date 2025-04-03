@@ -1,0 +1,20 @@
+# Ignore the following Unity-generated files and folders:
+
+# User-specific files
+UserSettings/
+
+# User-specific workspace configuration
+.idea/
+.vscode/
+
+# Unity specific folders
+[Ll]ibrary/
+[Tt]emp/
+Obj/
+Build/
+Builds/
+[Ll]og/
+
+# OS generated files
+.DS_Store
+Thumbs.db
